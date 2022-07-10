@@ -1,0 +1,15 @@
+proxies:
+ - name: "Trojan"
+   type: trojan
+   server: cdn.appsflyer.com
+   port: 443
+   password: jagoanssh-madesg
+   udp: true
+   sni: sg2go.ipservers.xyz
+   skip-cert-verify: true
+   network: ws
+   ws-opts:
+    path: /trojan
+    headers:
+      Host: sg2go.ipservers.xyz
+    
